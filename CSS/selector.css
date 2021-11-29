@@ -1,9 +1,9 @@
 h1 {
   color: blueviolet;
 }
-.selector {
+.class-selector {
   color: antiquewhite;
 }
-#selector {
+#id-selector {
   color: brown;
 }
