@@ -1,3 +1,31 @@
+h1:hover {
+  color: cadetblue;
+}
+
+li:first-child {
+  color: chocolate;
+}
+
+li:last-child {
+  color: rgb(198, 134, 230);
+}
+
+li:nth-child(4) {
+  color: rgb(67, 114, 19);
+}
+
+li:only-child {
+  color: rgb(141, 96, 41);
+}
+
+#link:link {
+  color: rgb(35, 159, 43);
+}
+
+#link:visited {
+  color: rgb(41, 47, 116);
+}
+
 /* .pseudo-selectors {
   visibility: hidden;
 } */
