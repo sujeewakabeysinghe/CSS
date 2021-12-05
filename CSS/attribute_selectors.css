@@ -1,0 +1,15 @@
+h1[class="my-class"] {
+  color: rgb(17, 104, 75);
+}
+
+img[src^="../img/"] {
+  border: 10px solid black;
+}
+
+img[src*="../img/"] {
+  border: 10px solid black;
+}
+
+h1[class|="my-sub"] {
+  background-color: bisque;
+}
