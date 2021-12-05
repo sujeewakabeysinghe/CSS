@@ -1,9 +1,15 @@
 h1 {
   color: blueviolet;
 }
+
 .class-selector {
   color: antiquewhite;
 }
+
 #id-selector {
   color: brown;
+}
+
+.selectors {
+  visibility: hidden;
 }
