@@ -1,0 +1,40 @@
+body {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAQMJzU1T-YqX1fOU-T0x7gNVMRug28DnTtg&usqp=CAU");
+  /* background: url("../IMG/s660.jpg");
+  background-color: ;
+  background-image: url(); */
+  background-repeat: no-repeat;
+  /* background-size: 400px 500px;
+  background-size: cover; */
+  background-size: contain;
+  background-color: cadetblue;
+
+  background: linear-gradient(to right, red, blue, green, yellow);
+  background: linear-gradient(
+    to left top,
+    rgb(11, 89, 20),
+    rgba(0, 128, 15, 0.1)
+  );
+  background: linear-gradient(150deg, red, blue);
+
+  background: radial-gradient(red, blue, green);
+  background: radial-gradient(red 40%, blue 10%, green 50%);
+
+  background: radial-gradient(circle, red 40%, blue 10%, green 50%);
+}
+
+#colors-1 {
+  color: #0c5448;
+}
+
+.colors-2 {
+  color: rgb(20, 182, 194);
+  background: #0c5448;
+  padding: 10px 0;
+}
+
+#colors-3 {
+  color: rgba(128, 0, 0, 0.585);
+  padding: 20px 0;
+  background-color: rgba(0, 128, 15, 0.585);
+}
