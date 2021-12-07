@@ -1,0 +1,16 @@
+.manupulation {
+  font-size: 5vh;
+  color: brown;
+  text-transform: capitalize;
+  text-align: right;
+}
+
+#one {
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Poppins", "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+.italic {
+  font-style: italic;
+}
