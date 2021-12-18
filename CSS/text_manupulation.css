@@ -1,4 +1,4 @@
-.manupulation {
+.text-manupulation {
   font-size: 5vh;
   color: brown;
   text-transform: capitalize;
@@ -7,7 +7,7 @@
 
 #one {
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 800;
   font-family: "Poppins", "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 
