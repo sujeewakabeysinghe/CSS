@@ -6,9 +6,9 @@
   /* flex-direction: column-reverse; */
   /* flex-direction: row-reverse; */
   flex-direction: row;
+  flex-wrap: wrap; /* this wrap makes a new line if the space is not enough */
   /* flex-wrap: wrap-reverse; */
-  flex-wrap: wrap;
-  /* justify-content: center; */
+  /* justify-content: center; */ /*this is for horizontal alignment*/
   /* justify-content: flex-end; */
   /* justify-content: space-between; */
   justify-content: space-around;
@@ -24,4 +24,16 @@
   width: 70px;
   line-height: 50px;
   margin: 10px;
+}
+
+.flex-item-mt {
+  background: rgb(36, 130, 39);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  width: 70px;
+  line-height: 50px;
+  margin: 10px;
+
+  margin-top: auto;
 }
