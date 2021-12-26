@@ -1,0 +1,29 @@
+.grid {
+  background-color: rgb(50, 50, 50);
+  margin: 10px;
+  height: 300px;
+
+  display: grid;
+  /* grid-template-columns: 30px 50px 100px;
+  grid-template-rows: 50px 200px; */
+
+  grid-template-columns: auto 50px auto;
+  column-gap: 20px;
+  grid-template-rows: auto auto;
+  row-gap: 40px;
+  /* gap: 50px; */
+
+  /* justify-content: end; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+
+  /* align-content: center; */
+  /* align-content: space-between; */
+}
+
+.grid-item {
+  color: black;
+  font-size: 0.5em;
+  text-align: center;
+}
