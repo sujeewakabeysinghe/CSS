@@ -1,7 +1,19 @@
 .float-display {
   display: inline;
+  /* inline means in one line, block means it takes new line for each elements. none is invisible but do not take the space too. */
 }
 
 #right {
   float: right;
+}
+
+.my-class {
+  float: right;
+}
+
+.inherit {
+  float: right;
+}
+.child {
+  float: inherit;
 }
