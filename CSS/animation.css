@@ -1,0 +1,19 @@
+.animation {
+  /* animation-name: red-to-black;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse; */
+
+  animation: red-to-black 4s linear 2s infinite reverse;
+}
+
+@keyframes red-to-black {
+  from {
+    background: rgb(13, 164, 48);
+  }
+  to {
+    background: rgb(26, 161, 229);
+  }
+}
