@@ -1,0 +1,30 @@
+.submit-btn {
+  margin: 20p 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  background: rgb(32, 140, 255);
+
+  /* transition: the property which we want to change or you can make all, duration, transition style, delay; */
+  /* transition: all 500ms ease-in-out 1s; */
+  transition: all 500ms ease-in-out 1s;
+  -webkit-transition: all 500ms ease-in-out 1s;
+  -moz-transition: all 500ms ease-in-out 1s;
+  -o-transition: all 500ms ease-in-out 1s;
+
+  /* transform: translate(250px, 250px); */
+}
+
+.submit-btn:hover {
+  background: rgb(0, 78, 162);
+
+  /* transform: translate(200px, 200px); */
+  /* transform: scale(0.5); */
+  /* transform: rotate(-45deg); */
+  /* transform: skewX(180deg); */
+  transform: skewX(90deg);
+}
